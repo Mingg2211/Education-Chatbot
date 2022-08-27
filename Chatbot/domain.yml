@@ -3,15 +3,22 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- goodbye
+- context_ask_major_type_edu
+- context_ask_major_subject_group
+- ask_major_career
+- context_ask_major_tuition
+- context_ask_major_criteria
+- context_ask_major_point
+- ask_major_info
 - ask_major_tuition
 - ask_major_type_edu
-- ask_major_info
 - ask_major_point
-- ask_major_career
 - ask_major_criteria
 - ask_major_subject_group
+- context_ask_major_info
+- context_ask_major_career
 - greet
-- goodbye
 - affirm
 - deny
 - mood_great

@@ -2,33 +2,6 @@ version: "3.0"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
 - story: basic_story
   steps:
   - intent: greet
@@ -100,3 +73,26 @@ stories:
     entities:
     - major_name: khoa học máy tính
   - action: action_response_major_criteria
+
+- story: interactive_story_2
+  steps:
+  - intent: ask_major_info
+    entities:
+    - major_name: khoa học máy tính
+  - slot_was_set:
+    - major_name: khoa học máy tính
+  - action: action_response_major_info
+  - intent: context_ask_major_type_edu
+  - action: action_response_major_type_edu
+  - intent: context_ask_major_point
+  - action: action_response_major_point
+  - intent: ask_major_career
+  - action: action_response_major_career
+  - intent: context_ask_major_tuition
+  - action: action_response_major_tuition
+  - intent: context_ask_major_subject_group
+  - action: action_response_major_subject_group
+  - intent: context_ask_major_criteria
+  - action: action_response_major_criteria
+  - intent: goodbye
+  - action: utter_goodbye

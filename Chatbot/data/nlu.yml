@@ -125,6 +125,7 @@ nlu:
     - Em muốn hỏi về ngành [kỹ thuật máy tính](major_name) ạ
     - Em muốn hỏi về ngành [công nghệ kỹ thuật ô tô](major_name) ạ
     - cho em hỏi ngành [khoa học máy tính](major_name)
+    - cho em hỏi về ngành [khoa học máy tính](major_name)
 - intent: ask_major_type_edu
   examples: |
     - Cho em hỏi ngành [kỹ thuật dệt](major_name) đào tạo những hệ nào ạ
@@ -162,7 +163,6 @@ nlu:
     - Ngành [kỹ thuật công trình xây dựng](major_name) đào tạo những hệ nào ạ
     - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
     - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
-    - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
 - intent: ask_major_point
   examples: |
     - Cho em hỏi ngành [kỹ thuật dệt](major_name) - Năm nay lấy bao nhiêu điểm ạ
@@ -199,7 +199,6 @@ nlu:
     - Năm nay ngành [kỹ thuật dầu khí](major_name) lấy bao nhiêu điểm ạ
     - Năm nay ngành [kỹ thuật công trình xây dựng](major_name) lấy bao nhiêu điểm ạ
     - Năm nay ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu điểm ạ
-    - điểm sàn của ngành [khoa học máy tính](major_name)
     - điểm sàn của ngành [khoa học máy tính](major_name)
 - intent: ask_major_career
   examples: |
@@ -239,6 +238,7 @@ nlu:
     - Học xong ngành [kỹ thuật điều khiển và tự động hóa](major_name) thì làm gì
     - cơ hội việc làm của ngành [khoa học máy tính](major_name)
     - cơ hội làm việc của ngành [khoa học máy tính](major_name)
+    - cơ hội làm việc của ngành này
 - intent: ask_major_tuition
   examples: |
     - Học phí của ngành [kỹ thuật dệt](major_name)
@@ -353,6 +353,41 @@ nlu:
     - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) của trường mình nhận bao nhiêu sinh viên ạ
     - ngành [khoa học máy tính](major_name) bao nhiêu sinh viên
     - ngành [khoa học máy tính](major_name) tuyển sinh bao nhiêu sinh viên
+- intent: context_ask_major_type_edu
+  examples: |
+    - ngành này đào tạo những hệ nào ạ
+    - hệ đào tạo của ngành này
+    - ngành này đào tạo những hệ nào
+- intent: context_ask_major_point
+  examples: |
+    - ngành này lấy bao nhiêu điểm
+    - điểm sàn của ngành này
+    - điểm sàn
+    - có điểm chuẩn chưa ạ
+    - điểm chuẩn
+- intent: context_ask_major_career
+  examples: |
+    - học xong ra làm gì
+    - cơ hội làm việc
+    - việc làm
+- intent: context_ask_major_tuition
+  examples: |
+    - học phí là bao nhiêu
+    - một tín chỉ bao nhiêu tiền
+    - học phí của ngành này
+    - học phí
+- intent: context_ask_major_subject_group
+  examples: |
+    - em muốn học ngành này thì thi khối gì ạ
+    - em muốn học ngành này thì theo khối gì ạ
+    - ngành này thi khối gì
+- intent: context_ask_major_criteria
+  examples: |
+    - chỉ tiêu
+    - chỉ tiêu là bao nhiêu ạ
+    - ngành này tuyển sinh bao nhiêu sinh viên ạ
+    - tuyển sinh
+    - chỉ tiêu của ngành này
 - synonym: khoa học máy tính
   examples: |
     - khoa học máy tinh
