@@ -19,3 +19,21 @@ mai train nlu
 xây action
 huấn luyện thử
 thêm config
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
