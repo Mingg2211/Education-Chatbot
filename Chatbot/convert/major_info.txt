@@ -1,0 +1,40 @@
+Cho em hỏi ngành [kỹ thuật dệt](major_name)
+Cho em hỏi ngành [kỹ thuật điện](major_name)
+Cho em hỏi ngành [kỹ thuật hóa học](major_name)
+Cho em hỏi ngành [kỹ thuật môi trường](major_name)
+Cho em hỏi ngành [kỹ thuật hàng không](major_name)
+Cho em hỏi ngành [quản lý công nghiệp](major_name)
+Cho em hỏi ngành [công nghệ may](major_name)
+Cho em hỏi ngành [công nghệ thực phẩm](major_name)
+Cho em hỏi ngành [kỹ thuật cơ khí](major_name)
+Cho em hỏi ngành [công nghệ sinh học](major_name)
+Cho em hỏi về ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+Cho em hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name)
+Cho em hỏi về ngành [kỹ thuật xây dựng công trình thủy](major_name)
+Cho em hỏi về ngành [kỹ thuật hệ thống công nghiệp](major_name)
+Cho em hỏi về ngành [khoa học máy tính](major_name)
+Cho em hỏi về ngành [vật lý kỹ thuật](major_name)
+Cho em hỏi về ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+Cho em hỏi về ngành [quản lý tài nguyên môi trường](major_name)
+Cho em hỏi về ngành [kỹ thuật máy tính](major_name)
+Cho em hỏi về ngành [công nghệ kỹ thuật ô tô](major_name)
+Em muốn hỏi về ngành [kỹ thuật dệt](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật điện](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật hóa học](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật môi trường](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật hàng không](major_name) ạ
+Em muốn hỏi về ngành [quản lý công nghiệp](major_name) ạ
+Em muốn hỏi về ngành [công nghệ may](major_name) ạ
+Em muốn hỏi về ngành [công nghệ thực phẩm](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật cơ khí](major_name) ạ
+Em muốn hỏi về ngành [công nghệ sinh học](major_name) ạ
+Em muốn hỏi về ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name) ạ
+Em muốn hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật xây dựng công trình thủy](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật hệ thống công nghiệp](major_name) ạ
+Em muốn hỏi về ngành [khoa học máy tính](major_name) ạ
+Em muốn hỏi về ngành [vật lý kỹ thuật](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật xây dựng công trình cảng biển](major_name) ạ
+Em muốn hỏi về ngành [quản lý tài nguyên môi trường](major_name) ạ
+Em muốn hỏi về ngành [kỹ thuật máy tính](major_name) ạ
+Em muốn hỏi về ngành [công nghệ kỹ thuật ô tô](major_name) ạ

@@ -1,0 +1,21 @@
+liet ke cac truong cau hoi
+tt co ban ve nganh hoc
+    format:
+    cho em hoi nganh + [major_name]
+    cho em hoi ve nganh +[major_name]
+    em muon hoi ve nganh +[major_name] a
+nganh hoc do dao tao nhung he nao
+    format :
+    nganh [major_name] dao tao nhung he nao
+
+du doan diem
+cong viec sau nay
+hoc phi/ tin chi
+tuyen sinh khoi gi
+chi tieu
+done 
+
+mai train nlu 
+xây action
+huấn luyện thử
+thêm config

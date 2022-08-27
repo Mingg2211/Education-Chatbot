@@ -1,0 +1,34 @@
+Em muốn học ngành [kỹ thuật dệt](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật điện](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật hóa học](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật môi trường](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật hàng không](major_name) thì theo khối gì ạ
+Em muốn học ngành [quản lý công nghiệp](major_name) thì theo khối gì ạ
+Em muốn học ngành [công nghệ may](major_name) thì theo khối gì ạ
+Em muốn học ngành [công nghệ thực phẩm](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật cơ khí](major_name) thì theo khối gì ạ
+Em muốn học ngành [công nghệ sinh học](major_name) thì theo khối gì ạ
+Em muốn học ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name) thì theo khối gì ạ
+Em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật xây dựng công trình thủy](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật hệ thống công nghiệp](major_name) thì theo khối gì ạ
+Em muốn học ngành [khoa học máy tính](major_name) thì theo khối gì ạ
+Em muốn học ngành [vật lý kỹ thuật](major_name) thì theo khối gì ạ
+Em muốn học ngành [kỹ thuật xây dựng công trình cảng biển](major_name) thì theo khối gì ạ
+Ngành [quản lý tài nguyên môi trường](major_name) thi khối gì
+Ngành [kỹ thuật máy tính](major_name) thi khối gì
+Ngành [công nghệ kỹ thuật ô tô](major_name) thi khối gì
+Ngành [kỹ thuật điện tử viễn thông](major_name) thi khối gì
+Ngành [kỹ thuật vật liệu](major_name) thi khối gì
+Ngành [kiến trúc](major_name) thi khối gì
+Ngành [kỹ thuật nhiệt](major_name) thi khối gì
+Ngành [kỹ thuật địa chất](major_name) thi khối gì
+Ngành [kỹ thuật tàu thủy](major_name) thi khối gì
+Ngành [kỹ thuật trắc địa bản đồ](major_name) thi khối gì
+Ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) thi khối gì
+Ngành [cơ kỹ thuật](major_name) thi khối gì
+Ngành [kỹ thuật cơ điện tử](major_name) thi khối gì
+Ngành [kỹ thuật xây dựng công trình giao thông](major_name) thi khối gì
+Ngành [kỹ thuật dầu khí](major_name) thi khối gì
+Ngành [kỹ thuật công trình xây dựng](major_name) thi khối gì
+Ngành [kỹ thuật điều khiển và tự động hóa](major_name) thi khối gì

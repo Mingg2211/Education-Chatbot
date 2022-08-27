@@ -1,0 +1,358 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_major_info
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật dệt](major_name)
+    - Cho em hỏi ngành [kỹ thuật điện](major_name)
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name)
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name)
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name)
+    - Cho em hỏi ngành [quản lý công nghiệp](major_name)
+    - Cho em hỏi ngành [công nghệ may](major_name)
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name)
+    - Cho em hỏi ngành [kỹ thuật cơ khí](major_name)
+    - Cho em hỏi ngành [công nghệ sinh học](major_name)
+    - Cho em hỏi về ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+    - Cho em hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Cho em hỏi về ngành [kỹ thuật xây dựng công trình thủy](major_name)
+    - Cho em hỏi về ngành [kỹ thuật hệ thống công nghiệp](major_name)
+    - Cho em hỏi về ngành [khoa học máy tính](major_name)
+    - Cho em hỏi về ngành [vật lý kỹ thuật](major_name)
+    - Cho em hỏi về ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+    - Cho em hỏi về ngành [quản lý tài nguyên môi trường](major_name)
+    - Cho em hỏi về ngành [kỹ thuật máy tính](major_name)
+    - Cho em hỏi về ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Em muốn hỏi về ngành [kỹ thuật dệt](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật điện](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật hóa học](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật môi trường](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật hàng không](major_name) ạ
+    - Em muốn hỏi về ngành [quản lý công nghiệp](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ may](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ thực phẩm](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật cơ khí](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ sinh học](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name) ạ
+    - Em muốn hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật xây dựng công trình thủy](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật hệ thống công nghiệp](major_name) ạ
+    - Em muốn hỏi về ngành [khoa học máy tính](major_name) ạ
+    - Em muốn hỏi về ngành [vật lý kỹ thuật](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật xây dựng công trình cảng biển](major_name) ạ
+    - Em muốn hỏi về ngành [quản lý tài nguyên môi trường](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật máy tính](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ kỹ thuật ô tô](major_name) ạ
+    - cho em hỏi ngành [khoa học máy tính](major_name)
+- intent: ask_major_type_edu
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật dệt](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [quản lý công nghiệp](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ may](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật cơ khí](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật xây dựng công trình thủy](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật hệ thống công nghiệp](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [khoa học máy tính](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [vật lý kỹ thuật](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật xây dựng công trình cảng biển](major_name) đào tạo những hệ nào ạ
+    - Ngành [quản lý tài nguyên môi trường](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật máy tính](major_name) đào tạo những hệ nào ạ
+    - Ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật vật liệu](major_name) đào tạo những hệ nào ạ
+    - Ngành [kiến trúc](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật nhiệt](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật địa chất](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật tàu thủy](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật trắc địa bản đồ](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) đào tạo những hệ nào ạ
+    - Ngành [cơ kỹ thuật](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật cơ điện tử](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật xây dựng công trình giao thông](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật dầu khí](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật công trình xây dựng](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
+    - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+    - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+- intent: ask_major_point
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật dệt](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [quản lý công nghiệp](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [công nghệ may](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật cơ khí](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Điểm sàn ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+    - Điểm sàn ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Điểm sàn ngành [kỹ thuật xây dựng công trình thủy](major_name)
+    - Điểm sàn ngành [kỹ thuật hệ thống công nghiệp](major_name)
+    - Điểm sàn ngành [khoa học máy tính](major_name)
+    - Điểm sàn ngành [vật lý kỹ thuật](major_name)
+    - Điểm sàn ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+    - Điểm sàn ngành [quản lý tài nguyên môi trường](major_name)
+    - Điểm sàn ngành [kỹ thuật máy tính](major_name)
+    - Điểm sàn ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Năm nay ngành [kỹ thuật điện tử viễn thông](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật vật liệu](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kiến trúc](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật nhiệt](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật địa chất](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật tàu thủy](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật trắc địa bản đồ](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [cơ kỹ thuật](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật cơ điện tử](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật xây dựng công trình giao thông](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật dầu khí](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật công trình xây dựng](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - điểm sàn của ngành [khoa học máy tính](major_name)
+    - điểm sàn của ngành [khoa học máy tính](major_name)
+- intent: ask_major_career
+  examples: |
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật dệt](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật điện](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hóa học](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật môi trường](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hàng không](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [quản lý công nghiệp](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ may](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ thực phẩm](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật cơ khí](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ sinh học](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật xây dựng công trình thủy](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hệ thống công nghiệp](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [khoa học máy tính](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [vật lý kỹ thuật](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+    - Học xong ngành [quản lý tài nguyên môi trường](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật máy tính](major_name) thì làm gì
+    - Học xong ngành [công nghệ kỹ thuật ô tô](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật điện tử viễn thông](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật vật liệu](major_name) thì làm gì
+    - Học xong ngành [kiến trúc](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật nhiệt](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật địa chất](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật tàu thủy](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật trắc địa bản đồ](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) thì làm gì
+    - Học xong ngành [cơ kỹ thuật](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật cơ điện tử](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật xây dựng công trình giao thông](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật dầu khí](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật công trình xây dựng](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật điều khiển và tự động hóa](major_name) thì làm gì
+    - cơ hội việc làm của ngành [khoa học máy tính](major_name)
+    - cơ hội làm việc của ngành [khoa học máy tính](major_name)
+- intent: ask_major_tuition
+  examples: |
+    - Học phí của ngành [kỹ thuật dệt](major_name)
+    - Học phí của ngành [kỹ thuật điện](major_name)
+    - Học phí của ngành [kỹ thuật hóa học](major_name)
+    - Học phí của ngành [kỹ thuật môi trường](major_name)
+    - Học phí của ngành [kỹ thuật hàng không](major_name)
+    - Học phí của ngành [quản lý công nghiệp](major_name)
+    - Học phí của ngành [công nghệ may](major_name)
+    - Học phí của ngành [công nghệ thực phẩm](major_name)
+    - Học phí của ngành [kỹ thuật cơ khí](major_name)
+    - Học phí của ngành [công nghệ sinh học](major_name)
+    - Học phí của ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+    - Học phí của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Học phí của ngành [kỹ thuật xây dựng công trình thủy](major_name)
+    - Học phí của ngành [kỹ thuật hệ thống công nghiệp](major_name)
+    - Học phí của ngành [khoa học máy tính](major_name)
+    - Học phí của ngành [vật lý kỹ thuật](major_name)
+    - Học phí của ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+    - Học phí của ngành [quản lý tài nguyên môi trường](major_name)
+    - Học phí của ngành [kỹ thuật máy tính](major_name)
+    - Học phí của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Học phí của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - Học phí của ngành [kỹ thuật vật liệu](major_name)
+    - Học phí của ngành [kiến trúc](major_name)
+    - Học phí của ngành [kỹ thuật nhiệt](major_name)
+    - Học phí của ngành [kỹ thuật địa chất](major_name)
+    - Học phí của ngành [kỹ thuật tàu thủy](major_name)
+    - Học phí của ngành [kỹ thuật trắc địa bản đồ](major_name)
+    - Học phí của ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name)
+    - Học phí của ngành [cơ kỹ thuật](major_name)
+    - Học phí của ngành [kỹ thuật cơ điện tử](major_name)
+    - Học phí của ngành [kỹ thuật xây dựng công trình giao thông](major_name)
+    - Học phí của ngành [kỹ thuật dầu khí](major_name)
+    - Học phí của ngành [kỹ thuật công trình xây dựng](major_name)
+    - Học phí của ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
+    - học phí của ngành [khoa học máy tính](major_name)
+    - học phí ngành [khoa học máy tính](major_name)
+- intent: ask_major_subject_group
+  examples: |
+    - Em muốn học ngành [kỹ thuật dệt](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật điện](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật hóa học](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật môi trường](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật hàng không](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [quản lý công nghiệp](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ may](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ thực phẩm](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật cơ khí](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ sinh học](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật xây dựng công trình thủy](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật hệ thống công nghiệp](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [khoa học máy tính](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [vật lý kỹ thuật](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật xây dựng công trình cảng biển](major_name) thì theo khối gì ạ
+    - Ngành [quản lý tài nguyên môi trường](major_name) thi khối gì
+    - Ngành [kỹ thuật máy tính](major_name) thi khối gì
+    - Ngành [công nghệ kỹ thuật ô tô](major_name) thi khối gì
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) thi khối gì
+    - Ngành [kỹ thuật vật liệu](major_name) thi khối gì
+    - Ngành [kiến trúc](major_name) thi khối gì
+    - Ngành [kỹ thuật nhiệt](major_name) thi khối gì
+    - Ngành [kỹ thuật địa chất](major_name) thi khối gì
+    - Ngành [kỹ thuật tàu thủy](major_name) thi khối gì
+    - Ngành [kỹ thuật trắc địa bản đồ](major_name) thi khối gì
+    - Ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) thi khối gì
+    - Ngành [cơ kỹ thuật](major_name) thi khối gì
+    - Ngành [kỹ thuật cơ điện tử](major_name) thi khối gì
+    - Ngành [kỹ thuật xây dựng công trình giao thông](major_name) thi khối gì
+    - Ngành [kỹ thuật dầu khí](major_name) thi khối gì
+    - Ngành [kỹ thuật công trình xây dựng](major_name) thi khối gì
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) thi khối gì
+    - [khoa học máy tinh]{"entity": "major_name", "value": "khoa h\u1ecdc m\u00e1y t\u00ednh"} thi khối gì
+    - ngành [khoa học máy tính](major_name) thi khối gì
+- intent: ask_major_criteria
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật dệt](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [quản lý công nghiệp](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [công nghệ may](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật cơ khí](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Chỉ tiêu ngành [công nghệ kỹ thuật vật liệu xây dựng](major_name)
+    - Chỉ tiêu ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Chỉ tiêu ngành [kỹ thuật xây dựng công trình thủy](major_name)
+    - Chỉ tiêu ngành [kỹ thuật hệ thống công nghiệp](major_name)
+    - Chỉ tiêu ngành [khoa học máy tính](major_name)
+    - Chỉ tiêu ngành [vật lý kỹ thuật](major_name)
+    - Chỉ tiêu ngành [kỹ thuật xây dựng công trình cảng biển](major_name)
+    - Chỉ tiêu ngành [quản lý tài nguyên môi trường](major_name)
+    - Chỉ tiêu ngành [kỹ thuật máy tính](major_name)
+    - Chỉ tiêu ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật vật liệu](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kiến trúc](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật nhiệt](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật địa chất](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật tàu thủy](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật trắc địa bản đồ](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật xây dựng cơ sở hạ tầng](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [cơ kỹ thuật](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật cơ điện tử](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật xây dựng công trình giao thông](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật dầu khí](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật công trình xây dựng](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - ngành [khoa học máy tính](major_name) bao nhiêu sinh viên
+    - ngành [khoa học máy tính](major_name) tuyển sinh bao nhiêu sinh viên
+- synonym: khoa học máy tính
+  examples: |
+    - khoa học máy tinh

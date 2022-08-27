@@ -1,0 +1,53 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- ask_major_tuition
+- ask_major_type_edu
+- ask_major_info
+- ask_major_point
+- ask_major_career
+- ask_major_criteria
+- ask_major_subject_group
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+entities:
+- major_name
+slots:
+  major_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: major_name
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_hello_world
+- action_response_major_career
+- action_response_major_criteria
+- action_response_major_info
+- action_response_major_point
+- action_response_major_subject_group
+- action_response_major_tuition
+- action_response_major_type_edu
+- utter_goodbye
+- utter_greet
